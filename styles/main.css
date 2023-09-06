@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carol Miller - Representative</title>
+    <style>
+        /* Apply basic styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .representative-card {
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            margin: 20px;
+            padding: 20px;
+        }
+        .representative-image {
+            max-width: 100px;
+            margin-right: 20px;
+        }
+        .representative-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .representative-details {
+            margin-top: 10px;
+        }
+        .representative-committees {
+            margin-top: 20px;
+        }
+        .representative-legislation {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Representative Component -->
+    <article class="representative-card">
+        <!-- Basic Information Sub-Component -->
+        <section class="representative-basic-info">
+            <img class="representative-image" src="carol-miller.jpg" alt="Carol Miller's Image">
+            <div>
+                <h2 class="representative-name">Carol Miller</h2>
+                <p class="representative-details">Representative for West Virginia's 1st congressional district</p>
+                <p class="representative-details">Since Jan 3, 2023 (next election in 2024)</p>
+                <p class="representative-details">Republican</p>
+            </div>
+        </section>
+
+        <!-- Committees Sub-Component -->
+        <section class="representative-committees">
+            <h3>Committees</h3>
+            <ul>
+                <li>Committee 1</li>
+                <li>Committee 2</li>
+                <li>Committee 3</li>
+            </ul>
+        </section>
+
+        <!-- Legislation Sub-Component -->
+        <section class="representative-legislation">
+            <h3>Legislation</h3>
+            <ul>
+                <li><a href="#">Bill 1 - Title</a></li>
+                <li><a href="#">Bill 2 - Title</a></li>
+                <li><a href="#">Bill 3 - Title</a></li>
+            </ul>
+        </section>
+    </article>
+</body>
+</html>
